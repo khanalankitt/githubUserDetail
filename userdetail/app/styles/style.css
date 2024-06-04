@@ -9,9 +9,55 @@ body {
   font-family: sans-serif;
 }
 
-#input {
-  height: 25px;
+#form {
+  height: 200px;
+  width: 50vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  gap: 15px;
+}
+#form label {
+  font-size: 22px;
+}
+#form input {
+  height: 30px;
   width: 200px;
-  font-size: 20px;
+  font-size: 18px;
   padding: 3px 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#form #submit {
+  border-radius: 10px;
+  width: 150px;
+  padding: 0px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.user {
+  height: 300px;
+  width: 50vw;
+  margin: 20px auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.user .photo {
+  height: 90%;
+  width: 30%;
+  border: 1px solid orange;
+}
+.user .info {
+  height: 90%;
+  width: 65%;
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
