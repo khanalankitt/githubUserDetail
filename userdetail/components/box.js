@@ -14,7 +14,7 @@ export default function Box(){
     return(
         <>
             <form>
-                <label htmlFor="#input">Enter the github username</label>
+                <label htmlFor="#input">Enter the github username</label><br />
                 <input type="text" name="input" id="input" onChange={setUserName}/>
                 <input type="submit" value="Search" onClick={search}/>
             </form>
