@@ -13,7 +13,6 @@ export default function Box(){
         setLoading(true);
         const response = await fetch("https://api.github.com/users/"+user);   
         const data = await response.json();
-        console.log(result);
         setResult(data);
         setLoading(false);
     }
