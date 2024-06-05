@@ -34,7 +34,7 @@ export default function Box(){
                         <h2>{result.name}</h2>   
                         <p>{result.bio}</p>
                         <p>
-                            <span>{result.follower}</span> followers
+                            <span>{result.followers}</span> followers
                            | <span>{result.following}</span> following</p>
                     </div>
                 </div>
