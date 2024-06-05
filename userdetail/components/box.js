@@ -41,7 +41,11 @@ export default function Box(){
                             width="100"
                             height="100"
                         />     
-                        <h2>{result.name}</h2>   
+                        <a href={result.html_url} target="_blank" style={{
+                            color: "black",
+                        }}>
+                            <h2>{result.name}</h2>   
+                        </a>
                         <p>{result.bio}</p>
                         <p>
                             <span>{result.followers}</span> followers
